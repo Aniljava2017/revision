@@ -2,7 +2,10 @@ package SingletonExample;
 
 public class Singleton {
     private static Singleton obj=new Singleton();
-    public Singleton(){}
+
+    private Singleton(){
+
+    }
     public static Singleton getInstance(){
         return obj;
     }
