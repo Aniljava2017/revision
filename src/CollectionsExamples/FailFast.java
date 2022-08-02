@@ -1,5 +1,6 @@
 package CollectionsExamples;
 
+import javax.sound.midi.Soundbank;
 import java.util.HashMap;
 
 public class FailFast {
@@ -10,8 +11,10 @@ public class FailFast {
         map.put(3,"Lokesh");
         map.put(4,"Rahul");
         for (Object var:map.entrySet()){
-            System.out.println("Key and value pair is :: " +var);
-            map.put(5,"ramesh");
+            map.remove(var);
+            //System.out.println("Key and value pair is :: " +var);
         }
+        map.put(5,"ramesh");
+        System.out.println(map);
     }
 }
