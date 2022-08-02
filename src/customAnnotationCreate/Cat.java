@@ -1,4 +1,4 @@
-package trytheExamples;
+package customAnnotationCreate;
 @VeryImportant
 public class Cat {
     String name;

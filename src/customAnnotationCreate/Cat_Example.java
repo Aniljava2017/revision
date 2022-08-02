@@ -1,4 +1,4 @@
-package trytheExamples;
+package customAnnotationCreate;
 
 public class Cat_Example {
     public static void main(String[] args) {
