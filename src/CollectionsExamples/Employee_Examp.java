@@ -49,7 +49,7 @@ public class Employee_Examp {
         Optional<Employee> maxSalaryEmp =
                 list.stream()
                         .collect(Collectors.maxBy(Comparator.comparing(Employee::getEmp_salary)));
-        System.out.println("Employee with max salary:"
+        System.out.println("Employee with max salary: "
                 + (maxSalaryEmp.isPresent()? maxSalaryEmp.get():"Not Applicable"));
 
     }
