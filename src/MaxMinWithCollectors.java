@@ -19,7 +19,7 @@ class MaxMinWithCollectors {
                 employeeList.stream()
                         .collect(Collectors.maxBy(Comparator.comparing(Employee::getEmp_salary)));
         System.out.println("Employee with max salary : "
-                + (maxSalaryEmp.isPresent()? maxSalaryEmp.get():"Not Applicable"));
+                + maxSalaryEmp.get());
       //  Optional<Employee> minAgeEmp =
        //         employeeList.stream()
          //               .collect(Collectors.minBy(Comparator.comparing(Employee::getAge)));
