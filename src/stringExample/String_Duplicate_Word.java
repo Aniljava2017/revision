@@ -1,4 +1,4 @@
-package justforPractice;
+package stringExample;
 
 public class String_Duplicate_Word {
     public static void main(String[] args) {

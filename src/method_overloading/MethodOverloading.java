@@ -1,4 +1,4 @@
-package MethodExample;
+package method_overloading;
 
 public class MethodOverloading {
     static int plusMethod(int x, int y){

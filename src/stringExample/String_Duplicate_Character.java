@@ -1,4 +1,4 @@
-package justforPractice;
+package stringExample;
 
 public class String_Duplicate_Character {
     public static void main(String[] args) {
